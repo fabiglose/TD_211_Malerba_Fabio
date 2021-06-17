@@ -25,20 +25,31 @@ et utilisation du capteur de luminosité -Raccordement de la charge électrique 
 
 D) Cahier des charges
 
+
 -Le prototype devait fonctionner dans un environnement "Circuit playground" de chez Adafruit. Ainsi, l'alimentation de tous les appareils,
 comme les servomoteurs et le microcontrôleur, doit donc se faire en 3.3 V. Par suite d’un problème approvisionnement, la tension d'alimentation doit impérativement
 passer de 3.3 V et 5 V. Il a donc été inévitable de passer sur un environnement Arduino ce qui implique que la partie programmation informatique se fasse 
 majoritairement en C++ plutôt qu’en python.
 
+-Des flowchart pour chacun des scénarios :
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Flowchart_scénarios_1_et_2
+
 -Modifier le prototype afin de contrôler manuellement l'orientation du panneau solaire.
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Code%20Arduino/AAM_TD_211_Malerba_Fabio_controle_manuel_des_servos
+-L'automatiser pour qu'il puisse decrire un arc de cercle (code disponible sur ce lien) :
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Code%20Python 
 
--L'automatiser pour qu'il puisse decrire un arc de cercle 
+-Intégrer le capteur de luminosité au fonctionnement du prototype pour ajuster la position du plateau (inclinaison et rotation), afin de suivre le soleil, de façon que le panneau soit toujours en face du soleil:
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Code%20Arduino/AAM_TD_211_MAlerba_Fabio_Suivre_la_lumière
 
--Intégrer le capteur de luminosité au fonctionnement du prototype pour ajuster la position du plateau (inclinaison et rotation), afin de suivre le soleil, de façon que le panneau soit toujours en face du soleil.
+-Le panneau solaire doit être équipé d'une charge électrique ainsi que d'un système de mesure de puissance. -Écrire les scripts qui correspondent à chacun des scénarios:
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Code%20Arduino/AAM_TD_211_Malerba_Fabio_puissance_electrique
 
--Le panneau solaire doit être équipé d'une charge électrique ainsi que d'un système de mesure de puissance. -Écrire les scripts qui correspondent à chacun des scénarios
+-Enregistrement des données avec un dattaloger muni d’une carte SD, (dans la partie dattaloger): 
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Code%20Arduino/Datalogger/AAM_TD_211_Malerba_Fabio_dattaloger
 
--Enregistrement des données avec un dattaloger muni d’une carte SD.
+-Créer un compte rendu sous forme de PV de livraison et un rapport de projet:
+https://github.com/fabiglose/TD_211_Malerba_Fabio/tree/main/Compte-rendu%20final
 
 E) Matériel nécessaire
 
